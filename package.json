@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "turbo": "^1.10.7"
+  },
+  "scripts": {
+    "build": "turbo build"
   }
 }
