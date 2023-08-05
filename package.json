@@ -10,7 +10,7 @@
     ]
   },
   "devDependencies": {
-    "turbo": "^1.10.7"
+    "turbo": "^1.10.12"
   },
   "scripts": {
     "build": "turbo build"
