@@ -1,4 +1,4 @@
-import { portable } from "@react-portable/core";
+import { previewify } from "@react-portable/core";
 
 type Props = {
   breadcrumbs: { id: string | number; name: string; href: string }[];
@@ -40,4 +40,4 @@ const Component = ({ breadcrumbs }: Props) => {
   );
 };
 
-export const Breadcrumb = portable(Component, "breadcrumb");
+export const Breadcrumb = previewify(Component, "breadcrumb");

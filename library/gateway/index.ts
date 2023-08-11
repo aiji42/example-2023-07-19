@@ -2,9 +2,6 @@ import { previewGateway } from "@react-portable/gateway";
 
 export type Env = {
   ORIGIN: string;
-  COMPONENT_DELIVERING_SYSTEMS: string;
-  ALLOW_ORIGINS: string;
-  STORE: KVNamespace;
 };
 
 export default {

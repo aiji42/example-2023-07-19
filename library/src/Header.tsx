@@ -1,8 +1,5 @@
-import {
-  MagnifyingGlassIcon,
-  ShoppingBagIcon,
-} from "@heroicons/react/24/outline";
-import { portable } from "@react-portable/core";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { previewify } from "@react-portable/core";
 
 import { CartIcon } from "~/CartIcon";
 
@@ -88,8 +85,4 @@ const Component = ({ country, cartCount }: Props) => {
   );
 };
 
-export const Header = portable(Component, "header", {
-  loader: () => {
-    return { country: { code: "CND", flag: "" }, cartCount: 0 };
-  },
-});
+export const Header = previewify(Component, "header");

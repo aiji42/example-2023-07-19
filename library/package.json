@@ -7,7 +7,6 @@
   "dependencies": {
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
-    "@react-portable/core": "^0.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -15,6 +14,9 @@
     "@builder.io/qwik": "^1.2.6",
     "@builder.io/qwik-city": "^1.2.6",
     "@builder.io/qwik-react": "^0.5.0",
+    "@cloudflare/workers-types": "^4.20230807.0",
+    "@react-portable/core": "^0.7.0-next.0",
+    "@react-portable/gateway": "^0.5.0-next.0",
     "@storybook/addon-essentials": "^7.2.1",
     "@storybook/addon-interactions": "^7.2.1",
     "@storybook/addon-links": "^7.2.1",
@@ -43,10 +45,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "vite build",
-    "portable:build": "portable build",
-    "portable:dev": "wrangler dev --port 3001 --live-reload",
-    "portable:preview": "wrangler dev --port 3001",
+    "portable:preview": "portable prepare && wrangler dev --port 3001 -c ./wrangler.preview.toml",
     "portable:global": "run-p portable:preview tunnel",
-    "tunnel": "cloudflared tunnel --url http://127.0.0.1:3001"
+    "tunnel": "cloudflared tunnel --url http://127.0.0.1:3001",
+    "gateway:start": "wrangler dev --port 8080 -c ./wrangler.gateway.toml"
   }
 }

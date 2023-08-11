@@ -1,6 +1,6 @@
 import { StarIcon } from "@heroicons/react/20/solid";
 import { classNames } from "~/helpers";
-import { portable } from "@react-portable/core";
+import { portable, previewify } from "@react-portable/core";
 
 type Props = {
   reviews: {
@@ -19,7 +19,7 @@ const Component = ({ reviews }: Props) => {
             <StarIcon
               key={rating}
               className={classNames(
-                reviews.average > rating ? "text-orange-500" : "text-gray-200",
+                reviews.average > rating ? "text-green-500" : "text-gray-200",
                 "h-8 w-8 flex-shrink-0"
               )}
               aria-hidden="true"
@@ -35,4 +35,4 @@ const Component = ({ reviews }: Props) => {
   );
 };
 
-export const Review = portable(Component, "review");
+export const Review = previewify(Component, "review");

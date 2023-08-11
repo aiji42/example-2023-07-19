@@ -1,5 +1,5 @@
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
-import { portable } from "@react-portable/core";
+import { previewify } from "@react-portable/core";
 
 type Props = {
   cartCount: number;
@@ -22,4 +22,4 @@ const Component = ({ cartCount }: Props) => {
   );
 };
 
-export const CartIcon = portable(Component, "cart-icon");
+export const CartIcon = previewify(Component, "cart-icon");

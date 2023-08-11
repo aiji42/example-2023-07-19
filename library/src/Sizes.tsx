@@ -1,7 +1,7 @@
 import { RadioGroup } from "@headlessui/react";
 import { classNames } from "~/helpers";
 import { useState } from "react";
-import { portable } from "@react-portable/core";
+import { portable, previewify } from "@react-portable/core";
 
 type Props = {
   sizes: { name: string; inStock: boolean }[];
@@ -87,4 +87,4 @@ const Component = ({ sizes }: Props) => {
   );
 };
 
-export const Sizes = portable(Component, "sizes");
+export const Sizes = previewify(Component, "sizes");

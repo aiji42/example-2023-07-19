@@ -1,5 +1,5 @@
 import { classNames } from "~/helpers";
-import { portable } from "@react-portable/core";
+import { previewify } from "@react-portable/core";
 import { RadioGroup } from "@headlessui/react";
 import { useState } from "react";
 
@@ -52,4 +52,4 @@ const Component = ({ colors }: Props) => {
   );
 };
 
-export const Colors = portable(Component, "colors");
+export const Colors = previewify(Component, "colors");

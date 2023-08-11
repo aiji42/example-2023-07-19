@@ -1,4 +1,4 @@
-import { portable } from "@react-portable/core";
+import { portable, previewify } from "@react-portable/core";
 
 type Image = {
   src: string;
@@ -46,4 +46,4 @@ const Component = ({ images }: Props) => {
   );
 };
 
-export const ImageGallery = portable(Component, "image-gallery");
+export const ImageGallery = previewify(Component, "image-gallery");
