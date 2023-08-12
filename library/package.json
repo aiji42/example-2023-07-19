@@ -39,15 +39,19 @@
     "typescript": "^5.1.6",
     "vite": "^4.4.9",
     "vite-plugin-dts": "^3.5.1",
-    "vite-tsconfig-paths": "^4.2.0"
+    "vite-tsconfig-paths": "^4.2.0",
+    "wrangler": "^3.5.0"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "vite build",
     "portable:preview": "portable prepare && wrangler dev --port 3001 -c ./wrangler.preview.toml",
-    "portable:global": "run-p portable:preview tunnel",
-    "tunnel": "cloudflared tunnel --url http://127.0.0.1:3001",
-    "gateway:start": "wrangler dev --port 8080 -c ./wrangler.gateway.toml"
+    "portable:global": "run-p portable:preview tunnel:preview",
+    "tunnel:preview": "cloudflared tunnel --url http://127.0.0.1:3001",
+    "tunnel:gateway": "cloudflared tunnel --url http://127.0.0.1:8081",
+    "gateway:start": "wrangler dev --port 8081 -c ./wrangler.gateway.toml",
+    "gateway:global": "run-p gateway:start tunnel:gateway",
+    "gateway:deploy": "wrangler deploy -c ./wrangler.gateway.toml"
   }
 }

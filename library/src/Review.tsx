@@ -19,7 +19,7 @@ const Component = ({ reviews }: Props) => {
             <StarIcon
               key={rating}
               className={classNames(
-                reviews.average > rating ? "text-green-500" : "text-gray-200",
+                reviews.average > rating ? "text-orange-500" : "text-gray-200",
                 "h-8 w-8 flex-shrink-0"
               )}
               aria-hidden="true"
