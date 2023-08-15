@@ -1,6 +1,0 @@
-name = "preview-gateway"
-main = "gateway/index.ts"
-compatibility_date = "2023-05-30"
-
-[vars]
-ORIGIN = "https://example-2023-07-19-application.vercel.app"
