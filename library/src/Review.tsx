@@ -1,6 +1,6 @@
 import { StarIcon } from "@heroicons/react/20/solid";
 import { classNames } from "~/helpers";
-import { portable, previewify } from "@react-portable/core";
+import { previewify } from "@react-portable/core";
 
 type Props = {
   reviews: {

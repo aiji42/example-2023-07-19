@@ -1,4 +1,4 @@
-import { portable, previewify } from "@react-portable/core";
+import { previewify } from "@react-portable/core";
 
 type Image = {
   src: string;

@@ -2269,20 +2269,20 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@react-portable/client@0.5.0-next.1":
-  version "0.5.0-next.1"
-  resolved "https://registry.yarnpkg.com/@react-portable/client/-/client-0.5.0-next.1.tgz#027f450ed46210165151bbdad5802ec49f5734cb"
-  integrity sha512-Ip2LJvvCV9cC7qSzfEq2bzQL1FCbH82XVpBfEX3v/jRNWmWzzRbmlKuQ5x3S2UN8+debUHkraXRvV6+kMbPHZQ==
+"@react-portable/client@0.5.0-next.3":
+  version "0.5.0-next.3"
+  resolved "https://registry.yarnpkg.com/@react-portable/client/-/client-0.5.0-next.3.tgz#1d5726cf72f01513e0acdc002805dc2d1d79cf0a"
+  integrity sha512-u0x1p9N4icQ1kx4pNzNrZe4jvUySWYpIDpnzSGNAoE1yHqlDNpi12CFElWqE1zbEPZBuUJft4HeIqjez+DwvUA==
   dependencies:
     writable-dom "^1.0.3"
 
-"@react-portable/core@^0.7.0-next.1":
-  version "0.7.0-next.1"
-  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.1.tgz#38d3c77f0bdaa0b77b0b72678617a6672fbb8d9d"
-  integrity sha512-Aex4oSi1V5WncA7akGOtwLdfm1KRX3yBBGlSUBnUAZyqK7eEA687r6wlRvNlcnnJe06zOfOdblvrCnusKOydrQ==
+"@react-portable/core@^0.7.0-next.5":
+  version "0.7.0-next.5"
+  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.5.tgz#37154c936063554f7f4e2b38c05c68cca73fd427"
+  integrity sha512-emqikCsviQvD5dDPmo6p46qo44+h3yjfoTOjUVcJ9DZfs5iSZNbfYDGhUyVzJ9ftfziLPKomFYjgXcyL9kMURg==
   dependencies:
     "@hono/qwik-city" "^0.0.3"
-    "@react-portable/gateway" "^0.5.0-next.1"
+    "@react-portable/gateway" "^0.5.0-next.3"
     app-root-path "^3.1.0"
     chokidar "^3.5.3"
     commander "^11.0.0"
@@ -2290,12 +2290,12 @@
     untun "^0.1.1"
     wrangler "^3.2.0"
 
-"@react-portable/gateway@^0.5.0-next.1":
-  version "0.5.0-next.1"
-  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.1.tgz#49639ea16f34653923ad321665ea981598cc7e41"
-  integrity sha512-dT5WEDSBCDlVh2e319Ykb18xT58G9eVJU3UiEwGSehaZ3wl/Rq6JmOTUbFx9jyc0BQ9s4UfdyvghdcCIN7LoDg==
+"@react-portable/gateway@^0.5.0-next.3":
+  version "0.5.0-next.4"
+  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.4.tgz#042f1b76ddf1a3eaab6b1e9bd54aa513b4bced1a"
+  integrity sha512-5wEUUi6sYgUw2u3Z0bzuv2eh3m9KF2vYB/eCdILrSs2R/sIYRKsAkM88rNPrdu/V2jZ0kkkV/dXLK+rTyMNQyw==
   dependencies:
-    "@react-portable/client" "0.5.0-next.1"
+    "@react-portable/client" "0.5.0-next.3"
     hono "^3.3.0"
 
 "@rollup/pluginutils@^5.0.0", "@rollup/pluginutils@^5.0.2":
