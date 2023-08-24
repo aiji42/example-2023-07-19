@@ -2269,24 +2269,26 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@react-portable/core@^0.7.0-next.7":
-  version "0.7.0-next.7"
-  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.7.tgz#c0e4c63632e0cc4eac00b6b28ec02e159ac068ac"
-  integrity sha512-1LkkTR22VQ0wcHiMX/d1XwzY0t+kFOEVRda9YlGaFUVBBcU75dVfENH79vNkWZNRgrQPG1tt5NaW6KqB0nz7eA==
+"@react-portable/core@^0.7.0-next.8":
+  version "0.7.0-next.8"
+  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.8.tgz#46c90dcf06ec8dd2814bd16256a99a122bbbb968"
+  integrity sha512-aZn3qeWmUWUlc5h0TuQShst8/PiLNouvhBI+gUX1MG+MgkF/qwRqkRWUsHCS8TZGfHGBHvg0gSGF/Z/yuONsNA==
   dependencies:
     "@hono/qwik-city" "^0.0.3"
-    "@react-portable/gateway" "^0.5.0-next.5"
+    "@react-portable/gateway" "^0.5.0-next.6"
     app-root-path "^3.1.0"
     chokidar "^3.5.3"
     commander "^11.0.0"
+    get-port "^7.0.0"
     hono "^3.3.0"
     untun "^0.1.1"
     wrangler "^3.2.0"
+    ws "^8.13.0"
 
-"@react-portable/gateway@^0.5.0-next.5":
-  version "0.5.0-next.5"
-  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.5.tgz#7e5cd43ecdb04982ae3deb8677d63897dd395181"
-  integrity sha512-TAWE+Bk+HO4OzY82AT7hgn+Ck1u9ZCMSOYoB86D8Qgac0GV9GJCK20xwkBlhq29lYl9fR9cNfnBTc8+ClDEBng==
+"@react-portable/gateway@^0.5.0-next.6":
+  version "0.5.0-next.6"
+  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.6.tgz#db5435257be5e968b17f9dbbe37be998684406d7"
+  integrity sha512-tOaPlCcUh4uYB84eMXrzb5Z4sRbWiWgp3NO67eRfo8y21/ebVhN2AMt46P+f6WlkY5qAG9gyvT/g1TdnGWeKHA==
   dependencies:
     hono "^3.3.0"
 
@@ -5721,6 +5723,11 @@ get-port@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/get-port/-/get-port-5.1.1.tgz#0469ed07563479de6efb986baf053dcd7d4e3193"
   integrity sha512-g/Q1aTSDOxFpchXC4i8ZWvxA1lnPqx/JHqcpIw0/LX9T8x/GBbi6YnlN5nhaKIFkT8oFsscUKgDJYxfwfS6QsQ==
+
+get-port@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/get-port/-/get-port-7.0.0.tgz#ffcd83da826146529e307a341d7801cae351daff"
+  integrity sha512-mDHFgApoQd+azgMdwylJrv2DX47ywGq1i5VFJE7fZ0dttNq3iQMfsU4IvEgBHojA3KqEudyu7Vq+oN8kNaNkWw==
 
 get-source@^2.0.12:
   version "2.0.12"
@@ -10172,7 +10179,7 @@ ws@^6.1.0:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@^8.11.0, ws@^8.2.3:
+ws@^8.11.0, ws@^8.13.0, ws@^8.2.3:
   version "8.13.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
   integrity sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==
