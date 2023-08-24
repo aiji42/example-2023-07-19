@@ -2269,20 +2269,13 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@react-portable/client@0.5.0-next.3":
-  version "0.5.0-next.3"
-  resolved "https://registry.yarnpkg.com/@react-portable/client/-/client-0.5.0-next.3.tgz#1d5726cf72f01513e0acdc002805dc2d1d79cf0a"
-  integrity sha512-u0x1p9N4icQ1kx4pNzNrZe4jvUySWYpIDpnzSGNAoE1yHqlDNpi12CFElWqE1zbEPZBuUJft4HeIqjez+DwvUA==
-  dependencies:
-    writable-dom "^1.0.3"
-
-"@react-portable/core@^0.7.0-next.5":
-  version "0.7.0-next.5"
-  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.5.tgz#37154c936063554f7f4e2b38c05c68cca73fd427"
-  integrity sha512-emqikCsviQvD5dDPmo6p46qo44+h3yjfoTOjUVcJ9DZfs5iSZNbfYDGhUyVzJ9ftfziLPKomFYjgXcyL9kMURg==
+"@react-portable/core@^0.7.0-next.7":
+  version "0.7.0-next.7"
+  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.7.tgz#c0e4c63632e0cc4eac00b6b28ec02e159ac068ac"
+  integrity sha512-1LkkTR22VQ0wcHiMX/d1XwzY0t+kFOEVRda9YlGaFUVBBcU75dVfENH79vNkWZNRgrQPG1tt5NaW6KqB0nz7eA==
   dependencies:
     "@hono/qwik-city" "^0.0.3"
-    "@react-portable/gateway" "^0.5.0-next.3"
+    "@react-portable/gateway" "^0.5.0-next.5"
     app-root-path "^3.1.0"
     chokidar "^3.5.3"
     commander "^11.0.0"
@@ -2290,12 +2283,11 @@
     untun "^0.1.1"
     wrangler "^3.2.0"
 
-"@react-portable/gateway@^0.5.0-next.3":
-  version "0.5.0-next.4"
-  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.4.tgz#042f1b76ddf1a3eaab6b1e9bd54aa513b4bced1a"
-  integrity sha512-5wEUUi6sYgUw2u3Z0bzuv2eh3m9KF2vYB/eCdILrSs2R/sIYRKsAkM88rNPrdu/V2jZ0kkkV/dXLK+rTyMNQyw==
+"@react-portable/gateway@^0.5.0-next.5":
+  version "0.5.0-next.5"
+  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.5.tgz#7e5cd43ecdb04982ae3deb8677d63897dd395181"
+  integrity sha512-TAWE+Bk+HO4OzY82AT7hgn+Ck1u9ZCMSOYoB86D8Qgac0GV9GJCK20xwkBlhq29lYl9fR9cNfnBTc8+ClDEBng==
   dependencies:
-    "@react-portable/client" "0.5.0-next.3"
     hono "^3.3.0"
 
 "@rollup/pluginutils@^5.0.0", "@rollup/pluginutils@^5.0.2":
@@ -10155,11 +10147,6 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
-
-writable-dom@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/writable-dom/-/writable-dom-1.0.3.tgz#9e94435a7339c08d910afbe17bdd627186641ea7"
-  integrity sha512-cZ00t/f1vDv7ieq6Sjy5nwjvhh9hZu1XC3YY/zKkX8CxKU7DVBWyKbKME1y5Uex8GUpwpyTBLkeRQ9VJAuGrJQ==
 
 write-file-atomic@^2.3.0:
   version "2.4.3"

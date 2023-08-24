@@ -14,7 +14,7 @@
     "@builder.io/qwik": "^1.2.6",
     "@builder.io/qwik-city": "^1.2.6",
     "@builder.io/qwik-react": "^0.5.0",
-    "@react-portable/core": "^0.7.0-next.5",
+    "@react-portable/core": "^0.7.0-next.7",
     "@storybook/addon-essentials": "^7.2.1",
     "@storybook/addon-interactions": "^7.2.1",
     "@storybook/addon-links": "^7.2.1",
@@ -42,7 +42,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "vite build",
-    "portable:preview": "portable prepare && portable preview https://example-2023-07-19-application.vercel.app -c ./vite.portable.config.ts",
+    "portable:preview": "portable previewify https://example-2023-07-19-application.vercel.app",
     "portable:preview:watch": "yarn portable:preview -w ./src"
   }
 }
