@@ -2269,13 +2269,13 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@react-portable/core@^0.7.0-next.9":
-  version "0.7.0-next.9"
-  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.9.tgz#f4bcfd15fc508391e5cdfbe13bd7a158ed81a560"
-  integrity sha512-wEKwCfS/5bRnXI92QPbSJ+BKFQwZbecN8wqVZ+QbAn/cFHitb1r8yBnX0qUr/Bai3nI7KzZwBCq6P7fph77Wzw==
+"@react-portable/core@^0.7.0-next.10":
+  version "0.7.0-next.10"
+  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.10.tgz#a0f966d802df0cb3e8eac9a4670f162fc42500b3"
+  integrity sha512-dHHbI3RaGe1kyvtUB0FeeisXN/r0X3NLcyQmO7040/r7mULZsLpslXfGPpqXkl8r4Kk2wevjBv8X/BqWnxpwFQ==
   dependencies:
     "@hono/qwik-city" "^0.0.4"
-    "@react-portable/gateway" "^0.5.0-next.7"
+    "@react-portable/gateway" "^0.5.0-next.8"
     app-root-path "^3.1.0"
     chokidar "^3.5.3"
     commander "^11.0.0"
@@ -2285,10 +2285,10 @@
     wrangler "^3.2.0"
     ws "^8.13.0"
 
-"@react-portable/gateway@^0.5.0-next.7":
-  version "0.5.0-next.7"
-  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.7.tgz#c92b26b5f22f37f63328e09a119c903dc1bab96e"
-  integrity sha512-nAQL9pxjpaOMv2d/t76pIFPaNVlKsAfDf6SyPsbPVaxgE9WGHsm7BhEDfyfdD+WZFlcFFgSyR7pK1ypCjUOseg==
+"@react-portable/gateway@^0.5.0-next.8":
+  version "0.5.0-next.8"
+  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.5.0-next.8.tgz#a13c598e4cd911b94c27805937b148c256f2cf73"
+  integrity sha512-fYLvUUFtknHm3waG0lP+1+1I3Ltz02lvF0DZDKKEUMlsOrqN4lMnaqS4/ngVxGXW53K2imzW1jTfEdkSUDw5Eg==
   dependencies:
     hono "^3.5.4"
 
