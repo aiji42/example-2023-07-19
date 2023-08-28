@@ -1178,10 +1178,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@builder.io/qwik-city@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik-city/-/qwik-city-1.2.9.tgz#1f11f7860fbc6ecbd67daf9bad5c98ecdf512fb4"
-  integrity sha512-p+etf1zQ+srhjNH5fX/YSFBjayWEIpnlTKKJgvb22f4E6R4CEPYIhRtcZtg3ljPuC2k+ouGdA0GMHj6LA3enhA==
+"@builder.io/qwik-city@1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik-city/-/qwik-city-1.2.10.tgz#c7dbb3ef373871decdec052f362d5a17f20b9103"
+  integrity sha512-IKo6NjT7dYtDYY1Y0hP56/jlbjcnK89NA0sHEBmNZJZJy+YnzvWLPWf9Ft9q30hIwK3azyW+XtJZpwIJIPEAFw==
   dependencies:
     "@mdx-js/mdx" "2.3.0"
     "@types/mdx" "2.0.5"
@@ -1191,15 +1191,15 @@
     vite-imagetools "^5.0.5"
     zod "^3.21.4"
 
-"@builder.io/qwik-react@^0.5.0":
+"@builder.io/qwik-react@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@builder.io/qwik-react/-/qwik-react-0.5.0.tgz#bbc536abc6a556a0e5df48051ed901409dbac8ba"
   integrity sha512-JdJWQWOJGv7ddQqEZwzR8wPh0IoCQZwD9qo75+reiQaLp6eH+Pjsm/kn1LaMQt6u72pCCNjnj5kEn/bnbfnIjQ==
 
-"@builder.io/qwik@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.2.9.tgz#dd1c3bd1fd795f3b74bc98b373f7ef875fd84003"
-  integrity sha512-LLifLKFHIe0181aYgzoayG2mSv0asBQq38BrwxS3sBfnsQSEJuTXUfx1PwUq5xZRHQ/jNbkyMHuznC06SU3mPg==
+"@builder.io/qwik@1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.2.10.tgz#7fec28388f028382aeeb7007f9c8d2d10353551e"
+  integrity sha512-UJDqEx3p32cmafT9zPk9G623wy0HeMp+T6IE12HKOZtC28T4VC4lwbzkxowPIPd+GuwTSXfWSQzwwgbnOBiPgg==
   dependencies:
     csstype "^3.1.2"
 
@@ -2269,11 +2269,14 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@react-portable/core@^0.7.0-next.11":
-  version "0.7.0-next.11"
-  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.11.tgz#41fc94b7a2b977461ad23b9eab664966b9e89263"
-  integrity sha512-dw1YwC7/0dMh/LVg9vCcStVX+uIdlQMhmSgM40X3apEZg55IMtjrHVXhh5tXTI6GVqkhdVvT9EMMVckmYDq7dA==
+"@react-portable/core@^0.7.0-next.13":
+  version "0.7.0-next.13"
+  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.7.0-next.13.tgz#67533ff79a7fade7931c6d8801485442aba90936"
+  integrity sha512-7iE8O4LQDBYCY5WOk8oL7E3vYxtvqIISKLijy0i2j2uLAXGiwiigaz7fXoRLXkPMQWM3aeLJ54/QFAM7WK/BnQ==
   dependencies:
+    "@builder.io/qwik" "1.2.10"
+    "@builder.io/qwik-city" "1.2.10"
+    "@builder.io/qwik-react" "0.5.0"
     "@hono/qwik-city" "^0.0.4"
     "@react-portable/gateway" "^0.5.0-next.8"
     app-root-path "^3.1.0"
