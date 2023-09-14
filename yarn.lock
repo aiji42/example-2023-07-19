@@ -2154,23 +2154,23 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@react-portable/core@^0.9.1":
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.9.1.tgz#64ca660b63e3394bf0e6b053313d66b6bc8cb1cb"
-  integrity sha512-lvvX8TOoZngVS9a1rEZTaoXC8ylFr6Vu2LWKvaBkAAfNoD8u1aTgo5WFQzTLchop/VKBGVwEMyMeSMUo3lAdZw==
+"@react-portable/core@^0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@react-portable/core/-/core-0.9.2.tgz#2c4aa4a10953802a9612490b6c0c5aabbd8bcd02"
+  integrity sha512-cPK+claFFZIl5PLPq0wEv/h7xgERkvXHSqjNdQEISICFJ9er8hEKqsiPWgktkcSd9hTjds7pYpP5ltOBi259jA==
   dependencies:
     "@builder.io/qwik" "1.2.11"
     "@builder.io/qwik-city" "1.2.11"
     "@builder.io/qwik-react" "0.5.0"
-    "@react-portable/gateway" "^0.6.1"
+    "@react-portable/gateway" "^0.6.2"
     cloudflared "^0.5.0"
     commander "^11.0.0"
     wrangler "^3.8.0"
 
-"@react-portable/gateway@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.6.1.tgz#626d11d81ebfb403a5403825a68318d1843f05e9"
-  integrity sha512-0S5LsZnVv1TZPPY0M2aqvSbvx6q3mjt00JbDi+BOXP+NlEsbigJKf9rRa+xtpANZ0RvsJ1ABgykJqB8RJcXV3A==
+"@react-portable/gateway@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@react-portable/gateway/-/gateway-0.6.2.tgz#1b595aab24efb6c5a5288317f77e7149c7b2c1ab"
+  integrity sha512-EFDQkiFujkzoKsGwdbVSk06OyGIp7zpt0WetJgJ2dxo4FLhJDlrTAYMgBVbsHgkDR+r14PGn4WC8U/Y2p149ag==
 
 "@rollup/pluginutils@^5.0.2":
   version "5.0.2"
