@@ -7,4 +7,13 @@ export default defineConfig({
     tsconfigPaths(),
     previewifyPlugin({ css: "./src/global-portable.css" }),
   ],
+  css: {
+    postcss: {
+      plugins: [
+        require("tailwindcss")({
+          config: "./tailwind.previewify.config.js",
+        }),
+      ],
+    },
+  },
 });
